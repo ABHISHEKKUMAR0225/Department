@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Department</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<style>
+.faculty {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faculty h2 {
+    font-size: 2.2rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.faculty p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.faculty-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.faculty-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.faculty-card:hover {
+    transform: scale(1.05);
+}
+
+.faculty-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.faculty-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.faculty-card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.social-icons a {
+    color: #0056b3;
+    margin: 0 8px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>CSE Department</h1>
+    <nav>
+       <a href="index.html">Home</a>
+		<a href="about.html">About</a>
+        <a href="clubs.html">Clubs</a>
+		<a href="projects.html">Project</a>
+	    <a href="faculty.html">Faculty</a>
+    </nav>
+</header>
+
+<main class="faculty">
+    <section>
+        <h2>Meet Our Faculty</h2>
+        <p>Our experienced faculty members are dedicated to academic excellence, research innovation, and student success.</p>
+        
+        <div class="faculty-grid">
+            <div class="faculty-card">
+                <img src="prof1.jpg" >
+                <h3>Prof. Sumit Lal</h3>
+                <p>Professor & HOD <br><strong>Areas of Expertise</strong><br> Data Structures and Algorithms<br> Web Development <br>Database Management Systems</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:anil.kumar@example.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="faculty-card">
+                <img src="prof2.jpg" >
+                <h3>Prof.Zainab</h3>
+                <p>Assistant Professor <br><strong>Areas of Expertise</strong><br> Data Structures and Algorithms<br> Web Development <br>Database Management Systems</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:priya.sharma@example.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Created by <strong> Abhishek</strong>  | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
